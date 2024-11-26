@@ -1,0 +1,45 @@
+body {
+    font-family: monospace, sans-serif, 'Times New Roman', Times, serif;
+    background-color: rgb(223, 177, 109);
+    background-image: linear-gradient(to right, rgb(223, 177, 109), rgb(253, 253, 253));
+}
+
+.img {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: rgba(230, 150, 3, 0.336);
+}
+
+#title {
+    text-align: center;
+    font-size: 100px;
+    color: rgb(167, 67, 72);
+}
+
+/* This controls front page links appearance */
+.block{
+    display: block;
+    background-color: rgba(230, 150, 3, 0.336);
+   
+    margin-right: 700px;
+    margin-left: 700px;
+    text-align: center;
+    border: 10px;
+    border-style: solid;
+    border-color: rgb(167, 67, 72);
+    border-radius: 25px;
+}
+/* This just removes the dots from the UL */
+#list {
+    list-style-type: none;
+}
+
+#copyright {
+    margin-top: 240px;
+}
