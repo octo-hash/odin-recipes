@@ -31,22 +31,31 @@ body {
 
 /* This controls front page links appearance */
 .block{
-    display: block;
+    display: inline-block;
     background-color: rgba(230, 150, 3, 0.336);
-   
-    margin-right: 700px;
-    margin-left: 700px;
+    margin-left: 50px;
     text-align: center;
-    border: 10px;
+    border: 7px;
     border-style: solid;
     border-color: rgb(167, 67, 72);
     border-radius: 25px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    #links-text{
+        color: white;
+        text-transform: uppercase;
+    }
 }
 /* This just removes the dots from the UL */
 #list {
     list-style-type: none;
 }
 
-#copyright {
-    margin-top: 240px;
+.para{
+    display: inline;
+    text-align: center;
+
 }
