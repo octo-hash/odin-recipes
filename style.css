@@ -1,7 +1,14 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
 body {
     font-family: monospace, sans-serif, 'Times New Roman', Times, serif;
-    background-color: rgb(223, 177, 109);
+    /*background-color: rgb(223, 177, 109);*/
     background-image: linear-gradient(to right, rgb(223, 177, 109), rgb(253, 253, 253));
+    
 }
 
 .img {
